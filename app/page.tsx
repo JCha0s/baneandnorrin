@@ -55,7 +55,7 @@ export default async function Home() {
         <div className="grid grid-cols-3 border-t border-black mt-4 md:mt-6 py-2 text-[9px] md:text-[11px] font-sans font-bold uppercase tracking-widest">
           <div className="text-left">London, UK</div>
           <div className="text-center">{liveDate}</div>
-          <div className="text-right uppercase">Med Perspectives from Med Students</div>
+          <div className="text-right uppercase">Med Perspectives from Healthcare Students</div>
         </div>
       </header>
 
