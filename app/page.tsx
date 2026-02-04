@@ -74,7 +74,7 @@ export default async function Home() {
                   {articles[0].category}
                 </span>
                 <Link href={`/article/${articles[0]._id}`}>
-                  <h2 className="text-5xl md:text-7xl font-bold leading-[1.1] mt-2 mb-6 tracking-tighter hover:underline cursor-pointer transition-all">
+                  <h2 className="text-5xl md:text-6xl font-bold leading-[1.1] mt-2 mb-6 tracking-tighter hover:underline cursor-pointer transition-all">
                     {articles[0].title}
                   </h2>
                 </Link>
